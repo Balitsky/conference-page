@@ -87,7 +87,7 @@
 
 .section_title {
   position: relative;
-  margin-bottom: 25px;
+  margin-bottom: 0px;
 }
 .section_title .title {
   text-transform: uppercase;
