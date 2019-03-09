@@ -102,3 +102,26 @@
   left: 0;
   top: 0;
 }
+.green{
+	color: #84e258;
+}
+.iconman{
+	max-width: 150px;
+	margin: 1% auto;
+}
+.green-title{
+	color: #8ab92d;
+    letter-spacing: 2px;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.btn-color:hover {
+    color: #fff;
+    background-color: #84e258;
+    border-color: #84e258;
+}
+.yellow-text{
+	color: #f1c40f;
+}
