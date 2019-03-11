@@ -196,6 +196,16 @@
 	background-color: rgba(0,0,0,0.6);
 	color: white;
 }
+
+select.form-control:not([size]):not([multiple]) {
+    height: calc(3.25rem + 2px);
+	color: #5B626A;
+}
+
+.form-control option{
+	color: white;
+}
+
 .tm-submit-btn {
 	color: white;
     background-color: rgba(0,0,0,0.3);
