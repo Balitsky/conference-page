@@ -694,46 +694,49 @@
 								<h2 class="tm-section-title">Contact Us</h2>
                         
 								<!-- contact form -->
-								<form action="index.html" method="post" class="tm-contact-form">
+								<script type="text/javascript">var submitted=false;</script>
+								<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.location='index.html';}"></iframe>
+
+								<form class="tm-contact-form"
+								action="https://docs.google.com/forms/d/e/1FAIpQLSf-M2vyTjF8AjeBGHrOowSorrCCiN9QUEOaa1BD5CcuZoUNIw/formResponse" 
+								method="post" target="hidden_iframe" 
+								onsubmit="submitted=true;">
 									<div class="form-group">
-										<input type="text" id="contact_name" name="contact_name" class="form-control" placeholder="Your Name"  required/>
+										<input type="text" name="entry.162305699" class="form-control" placeholder="Your Name"  required>
 									</div>
 									<div class="form-group">                                                        
-										<input type="email" id="contact_email" name="contact_email" class="form-control" placeholder="Your Email"  required/>
+										<input type="email" name="entry.493117980" class="form-control" placeholder="Your Email"  required>
 									</div>
-									<div class="form-group">                                                        
-										<input type="email" id="contact_email" name="contact_email" class="form-control" placeholder="Your Email"  required/>
-									</div>  
-									<div class="form-group">                                                        
-										<input type="email" id="contact_email" name="contact_email" class="form-control" placeholder="Your Email"  required/>
-									</div>  
-									<div class="form-group">                                                        
-										<input type="email" id="contact_email" name="contact_email" class="form-control" placeholder="Your Email"  required/>
-									</div>  
+									<label class="green-text" style="font-size: 20px;">Ticket information</label>
+									<div class="row">
+										<div class="col-6 form-group">                                                        
+											<input type="text" name="entry.1818785732" class="form-control" placeholder="Day &#128467;"  required>
+										</div>
+										<div class="col-6 form-group">                                                        
+											<input type="text" name="entry.647585851" class="form-control" placeholder="-- : -- &#9716; Time"  required>
+										</div>
+									</div>
 									<div class="form-group">
-										<select class="mdb-select md-form form-control">
+										<select name="entry.1936458247" class="mdb-select md-form form-control">
 											<option value="" disabled selected>Choose your airports</option>
-											<option value="1">Vnukovo (VKO)</option>
-											<option value="2">Sheremetyevo (SVO)</option>
-											<option value="3">Domodedovo (DME)</option>
-											<option value="4">Zhukovsky (ZIA)</option>
+											<option value="Vnukovo">Vnukovo (VKO)</option>
+											<option value="Sheremetyevo">Sheremetyevo (SVO)</option>
+											<option value="Domodedovo">Domodedovo (DME)</option>
+											<option value="Domodedovo">Zhukovsky (ZIA)</option>
 										</select>
 									</div>
 									<div class="form-group">
-										<textarea id="contact_message" name="contact_message" class="form-control" rows="5" placeholder="Message" required></textarea>
+										<textarea name="entry.1200357176" class="form-control" rows="5" placeholder="Message"></textarea>
 									</div> 
-									<a href="#" aria-pressed="true" role="button" class="btn btn-outline-success">
+									<button aria-pressed="true" role="button" class="btn btn-outline-success">
 										Submit
-									</a>
+									</button>
 								</form>  
 							</div>
 							<!--<a class="callaction-btn" href="#">Become a Member</a>	-->						
 						</div>
 					</div>
 				</div>	
-			</section>
-			<section>
-				<img class="img-fluid blur" src="img/callaction-bg.jpg">
 			</section>
 			<!-- End callaction Area -->
 					
@@ -744,34 +747,13 @@
 					<div class="row">
 						<div class="col-lg-5 col-md-6 col-sm-6">
 							<div class="single-footer-widget">
-								<h6>About Us</h6>
-								<p>
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.
-								</p>
 								<p class="footer-text">
 									<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart3" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 								</p>								
 							</div>
-						</div>
-						<div class="col-lg-5  col-md-6 col-sm-6">
-							<div class="single-footer-widget">
-								<h6>Newsletter</h6>
-								<p>Stay update with our latest</p>
-								<div class="" id="mc_embed_signup">
-									<form target="_blank" novalidate="true" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="form-inline">
-										<input class="form-control" name="EMAIL" placeholder="Enter Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Email '" required="" type="email">
-			                            	<button class="click-btn btn btn-default"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
-			                            	<div style="position: absolute; left: -5000px;">
-												<input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text">
-											</div>
-
-										<div class="info"></div>
-									</form>
-								</div>
-							</div>
-						</div>						
+						</div>		
 						<div class="col-lg-2 col-md-6 col-sm-6 social-widget">
 							<div class="single-footer-widget">
 								<h6>Follow Us</h6>
@@ -779,8 +761,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 								<div class="footer-social d-flex align-items-center">
 									<a href="#"><i class="fa fa-facebook"></i></a>
 									<a href="#"><i class="fa fa-twitter"></i></a>
-									<a href="#"><i class="fa fa-dribbble"></i></a>
-									<a href="#"><i class="fa fa-behance"></i></a>
+									<a href="#"><i class="fa fa-instagram"></i></a>
 								</div>
 							</div>
 						</div>							
